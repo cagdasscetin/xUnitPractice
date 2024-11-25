@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculations", "Calculations\Calculations.csproj", "{29A3D79C-9356-493D-B255-CB9683A9182F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitPractice", "xUnitPractice\xUnitPractice.csproj", "{29A3D79C-9356-493D-B255-CB9683A9182F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculations.Tests", "Calculations.Tests\Calculations.Tests.csproj", "{BA98515A-007E-4FBF-A901-52C46393B2B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitPractice.Tests", "xUnitPractice.Tests\xUnitPractice.Tests.csproj", "{BA98515A-007E-4FBF-A901-52C46393B2B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

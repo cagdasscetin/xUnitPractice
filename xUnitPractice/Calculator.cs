@@ -1,4 +1,4 @@
-namespace Calculations;
+namespace xUnitPractice;
 
 public class Calculator
 {
