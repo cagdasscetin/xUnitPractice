@@ -5,6 +5,7 @@ namespace xUnitPractice.Tests;
 public class CollectionsTest
 {
     [Fact]
+    [Trait("Category", "Fibo")]
     public void FiboDoesNotIncludeZero()
     {
         var col = new Collections();
@@ -12,6 +13,7 @@ public class CollectionsTest
     }
 
     [Fact]
+    [Trait("Category", "Fibo")]
     public void FiboIncludes13()
     {
         var col = new Collections();
@@ -19,6 +21,7 @@ public class CollectionsTest
     }
 
     [Fact]
+    [Trait("Category", "Fibo")]
     public void FiboDoesNotInclude4()
     {
         var col = new Collections();
@@ -26,6 +29,7 @@ public class CollectionsTest
     }
 
     [Fact]
+    [Trait("Category", "Fibo")]
     public void CheckCollection()
     {
         var expectedCollection = new List<int>(){1, 1, 2, 3, 5, 8, 13};
