@@ -11,8 +11,12 @@ public class Customer
 
         return 100;
     }
-    
     public int Age => 24;
+
+    public string GetFUllName(string firstName, string lastName)
+    {
+        return $"{firstName} {lastName}";
+    }
 }
 
 public class LoyalCustomer : Customer
