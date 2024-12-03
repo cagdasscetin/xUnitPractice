@@ -8,7 +8,7 @@ public static class TestDataShare
             new object[] { 200, false }
         };
     
-    public static IEnumerable<object[]> IsOddEventExternalData {
+    public static IEnumerable<object[]> IsOddOrEvenExternalData {
         get
         {
             var allLines = System.IO.File.ReadAllLines("IsOddOrEvenTestData.txt");

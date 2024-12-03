@@ -51,7 +51,8 @@ public class CalculationsTest
     }
 
     [Theory]
-    [MemberData(nameof(TestDataShare.IsOddEventExternalData), MemberType = typeof(TestDataShare))]
+    // [MemberData(nameof(TestDataShare.IsOddOrEvenExternalData), MemberType = typeof(TestDataShare))]
+    [IsOddOrEvenData]
     public void IsOdd_TestOddAndEven(int value, bool expected)
     {
         var calc = new Calculations();
